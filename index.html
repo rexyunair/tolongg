@@ -7,27 +7,57 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
+      background-color: #f0f0f0;
+      padding: 20px;
     }
     .profile-photo {
-      max-width: 300px;
-      height: auto;
-      border-radius: 50%;
+      width: 300px; /* Set width for a rectangular profile photo */
+      height: 200px; /* Set height for a rectangular profile photo */
+      border: 5px solid #fff; /* Add border to the photo */
+      border-radius: 10px; /* Optional: Add border radius */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
       display: block;
       margin: 20px auto;
     }
     .personal-info {
-      margin: 20px;
+      margin: 20px auto;
+      max-width: 500px; /* Set max width for the personal info section */
+      text-align: left; /* Align text to the left */
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse; /* Collapse borders */
+    }
+    table td {
+      padding: 10px;
+      border: 1px solid #ccc; /* Add border for cells */
+    }
+    h1 {
+      color: #333;
+      text-align: center; /* Align the name in the middle */
+    }
+    p {
+      font-size: 1.2em;
+      color: #555;
+      margin: 0; /* Remove default margins */
     }
   </style>
 </head>
 <body>
-  <img src="c:\Users\Rexwald\Pictures\Screenshots\Screenshot (63).png" alt="Profile Photo" class="profile-photo">
+  <img src="profilerexy.jpg" alt="Profile Photo" class="profile-photo">
   
   <div class="personal-info">
     <h1>Rexy</h1>
-    <p>Email: krexwald@gmail.com</p>
-    <p>Phone: 085320303003</p>
-    <p>Address: Jalan Awiligar no.112B </p>
+    <table>
+      <tr>
+        <td>NIM:</td>
+        <td>164221073</td>
+      </tr>
+      <tr>
+        <td>Hobby:</td>
+        <td>Reading, Brazilian Jiu-Jitsu, & Capsa</td>
+      </tr>
+    </table>
   </div>
 </body>
 </html>
